@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Task</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="head-wrap">
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
+					<img src="images/google_search.jpg" alt="google-icon" class="google-icon">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<input type="text" placeholder="News" class="input-wrap"/>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-md-offset-2 col-lg-offset-2">
+					<img src="images/speak_now.jpg" alt="speaker" class="speaker-wrap">
+				</div>
+			</div>
+			<div class="hr-wrap">
+				<hr class="hr-line">
+			</div>
+		</div>
+		<div class="second-section">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 trend-news-block">
+					<h1 class="main-head">Trending News Articles<img src="images/symbol.jpg" alt="" class="symbol-img"></h1>
+					<img src="images/ship.jpg" alt="" class="ship-img">
+					<div class="content-wrap cont-one">
+						<h2>Coast Guard Searches for Missing Royal...</h2>
+						
+						<p><span style="color:#34a853;">ABC News</span> <span style="color:#c3c6cb;">- 3 hours ago</span></p>
+						<p style="color:#75797f;">Royal Caribbean's Navigator of the Seas pulls out of New <br>Orleans on the Mississippi River, Feb. 2, 2013. 76 Shares.<br>Email. Coast Guard crews...</p>
+					</div>
+						<img src="images/lady.jpg" alt="" class="lady-img">
+					<div class="content-wrap cont-two">
+						<h2>Lena Dunham hospitalized after ovarian...</h2>
+						<p><span style="color:#34a853;">CBS News</span> <span style="color:#c3c6cb;">- 5 hours ago</span></p>
+						<p style="color:#75797f;">Lena Dunham will undergo surgery after experiencing an <br>ovarian cyst rupture. Spokeswoman Cindi Berger said in<br>a statement</p>
+					</div>
+						<img src="images/man.jpg" alt="" class="man-img">
+					<div class="content-wrap cont-three">
+						<h2>Ben Carson suspends his 2016 presidential...</h2>
+						<p><span style="color:#34a853;">CBS News</span> <span style="color:#c3c6cb;">- 14 hours ago</span></p>
+						<p style="color:#75797f;">Politics. Donald Trump to skip conservative summit. By <br>Stephanie Condon CBS News March 4, 2016, 5:48 PM<br>Carson Spent Heavily on Consultants, Lightly on...</p>
+					</div>
+					<div class="trending-news-block">
+						<a href="#" class="color-blue">See more trending news ></a>
+						<span class="span-wrap"><span style="color:#c3c6cb;">your thoughts?</span><img src="images/face.jpg" alt=""></span>
+					</div>
+				</div>
+				
+				
+				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 top-result-section">
+					<h1 class="main-head">Top Results<img src="images/symbol.jpg" alt="" class="symbol-img-one"></h1>
+					<table width="100%" cellpadding="50px" cellspacing="50px" align="center">
+					  <thead>
+						<tr>
+						  <th>UserId</th>
+						  <th>Id</th>
+						  <th>Title</th>
+						  <th>Body</th>
+						</tr>
+					  </thead>
+					  <tbody id="body"></tbody>
+					  <tfoot id="footer"></tfoot>
+					</table>
+					<div class="more-results">
+						<a role="button" onClick="fetchPostData()" class="color-blue more-res">See more results ></a>
+						<span class="span-wrap-one"><span style="color:#c3c6cb;">your thoughts?</span><img src="images/face.jpg" alt=""></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row content-section">
+						<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-1 col-lg-offset-1">
+							<img src="images/bbc.jpg" alt="" class="img-one">
+						</div>
+						<div class="content-wrapper-one col-xs-12 col-sm-12 col-md-2 col-lg-2">
+							<span style="color:#323841;">BBC</span><br>
+							<span style="color:#323841;">Live Streaming Video</span><br>
+							<span><span style="color:#34a853;">Watch live</span>  <img src="images/play-symbol.jpg" alt=""></span>
+							
+						</div>
+			
+						<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 cont-wrapper-two">
+							<img src="images/cbs.jpg" alt="" class="img-two">
+						</div>
+						<div class="content-wrapper-two col-xs-12 col-sm-12 col-md-2 col-lg-2">
+							<span style="color:#323841;">CBS News</span><br>
+							<span style="color:#323841;">Featured Videos</span><br>
+							<span><span style="color:#34a853;">Watch live</span>  <img src="images/play-symbol.jpg" alt=""></span>
+							
+						</div>
+		
+						<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 cont-wrapper-three">
+							<img src="images/cnn.jpg" alt="" class="img-three">
+						</div>
+						<div class="content-wrapper-three col-xs-12 col-sm-12 col-md-2 col-lg-2">
+							<span style="color:#323841;">CNN.com</span><br>
+							<span style="color:#323841;">Latest News Videos</span><br>
+							<span><span style="color:#34a853;">Watch live</span>  <img src="images/play-symbol.jpg" alt=""></span>
+								
+						</div>
+		
+		</div>
+					<div class="row more-stations">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1">
+								<a href="#" class="color-blue">See more stations ></a>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-3 col-lg-offset-3 smily-img">
+								<span class="span-wrap-two"><span style="color:#c3c6cb;">your thoughts?</span><img src="images/face.jpg" alt=""></span>
+						</div>
+						</div>
+						<span class="load-img">
+						<img src="images/load.jpg" alt="">
+						</span>
+					
+					
+				
+		
+		
+		<script type="text/javascript">
+        let postCount= 0;
+        fetchPostData();
+        function fetchPostData(){
+            fetch(`https://jsonplaceholder.typicode.com/posts?_limit=4&_start=${postCount}`)
+                .then(response => response.json())
+                .then(posts=> {
+					document.getElementById("body").innerHTML="";
+                    postCount = postCount+posts.length;
+					posts.forEach(element=> {
+                      document.getElementById("body").innerHTML +=
+						"<tr><td>" +
+						element.userId+
+						"</td><td>"+
+						element.id +
+						"</td><td>" +
+						element.title+
+						"</td><td>" +
+						element.body+
+						"</td></tr>";
+					});
+				});
+		}
+</script>
+			
+	</body>
+</html>
+		

@@ -1,0 +1,93 @@
+	*{margin:0;padding:0;box-sizing:border-box;font-family: 'Lato', sans-serif;}
+	.main-head{font-size:24px;margin-bottom:5%;}
+	.input-wrap{border: none!important;margin-left: -33%!important;margin-top: 5%;}
+	::placeholder{color:#c3c6cb;font-size:20px;}
+	.head-wrap{margin-top:1%;}
+	.hr-line{height:1px;background-color:#c3c6cb;margin-left:4%;}
+	.content-wrap{float:right;width:400px;margin-top:-2%;}
+	.content-wrap h2{font-size:16px;}
+	.content-wrap p{font-size:14px;}
+	.span-wrap{margin-left:30%;}
+	.span-wrap-one{margin-left:45%;}
+	.span-wrap-two{margin-left:58%;margin-bottom:2%;}
+	.more-stations{margin:5% 0%;}
+	.load-img{margin-left: 50%;}
+	.color-blue{color:#659bf6;font-size:20px;margin-top:2%;}
+	.symbol-img-one{margin-left:70%;}
+	.symbol-img{margin-left:52%;}
+	.color-blue:hover{text-decoration:none;color:#659bf6;}
+	.content-wrapper-two{margin-left: -7%;margin-top:21px;}
+	td {max-width: 100px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-bottom:5%;}
+	th,td{padding:20px;}
+	th:first-child{padding:10px;}
+	th:nth-child(2){padding:10px;}
+	td:first-child{padding:10px;}
+	td:nth-child(2){padding:10px;}
+	
+	.content-wrapper-one{margin-left: 6%;margin-top: 22px;}
+	.content-wrapper-three{margin-left: -7%;margin-top: 22px;}
+	.img-two{margin-left:-30%;}
+	.img-three{margin-left:-30%;}
+	.content-section{margin-top:5%;}
+	.trending-news-block{margin-top:10%;}
+	.ship-img,.lady-img{margin-bottom:5%;}
+	.margin-left{margin-left:2%;}
+	.speaker-wrap{margin-left:130%;}
+	.cont-wrapper-two{margin-left:5%;}
+	.cont-wrapper-three{margin-left:3%;}
+@media only screen and (max-width:767px){
+	.content-wrapper-two span{margin-top:-6%!important;}
+	.content-wrapper-two span:first-child{margin-top:0%!important;}
+	.cont-wrapper-two{margin-left:0%!important;}
+	.cont-wrapper-three{margin-left:0%!important;}
+	.span-wrap-one{margin-left:0%!important;}
+	.symbol-img{margin-left:5%!important;}
+	.symbol-img-one{margin-left:35%!important;}
+	.hr-line{width:307px!important;}
+	.trend-news-block{display:flex!important;flex-direction:column!important;}
+	.trending-news-block{display:flex!important;flex-direction:column!important;}
+	.more-stations{display:flex!important;flex-direction:column!important;}
+	.more-results{display:flex!important;flex-direction:column!important;}
+	.content-section,.content-wrapper-two{display:flex!important;flex-direction:column!important;}
+	.content-wrapper-two,.img-two{margin-left:0%!important;}
+	.content-wrapper-three{margin-left:0%!important;}
+	.img-three{margin-left:0%!important;}
+	.top-result-section{display:flex!important;flex-direction:column!important;}
+	.speaker-wrap{margin-top:5%!important;;margin-left:50%!important;}
+	img{margin:0 auto!important;}
+	.smily-img{margin:5% 0% 10%!important;}
+	.main-head{margin:0% 0% 15% 15%!important;}
+	.span-wrap{margin:5% 0% 10% 0%!important;}
+	.google-icon{margin-left:12%!important;margin-top:5%!important;}
+	.input-wrap{margin-top:32%!important;}
+	.content-wrap-one,.content-wrap-two,.content-wrap-three,.main-head{text-align:center!important;}
+	.img-one,.img-two,.img-three{margin-left:23%!important;}
+	.content-wrapper-two{margin-left:-5%!important;margin-bottom:5%!important;}
+	.content-wrapper-three{margin-left:-5%!important;text-align:center!important;margin-bottom:5%!important;}
+	.content-wrapper-one{margin-left:-5%!important;text-align:center!important;margin-bottom:5%!important;}
+	.ship-img,.lady-img,.man-img{margin-left:30%!important;}
+	.trending-news-block,.more-results{text-align:center!important;margin-left:-1%!important;}
+	.content-wrap h2,span{text-align:center!important;margin-left:5%;}
+	.content-wrap p{width: 250px!important;text-align: center!important;margin-left: 8%!important;}
+	table{margin-left:14%!important;text-align:center!important;}
+	table th{text-align:center!important;}
+	
+	.span-wrap-one{margin-top:5%!important;}
+	.more-results{margin-top:10%!important;}
+	.more-stations a{margin-left:22%!important;}
+	.span-wrap-two{margin-left:22%!important;}
+	.load-img{margin-left:42%!important;}
+}
+@media only screen and (max-width:991px){
+	.content-wrapper-two span{margin-top:-6%!important;}
+	.content-wrapper-two span:first-child{margin-top:0%!important;}
+	.speaker-wrap{margin-left:50%!important;}
+	.content-wrap h2{margin-left:-8%!important;}
+	.content-wrap p{margin-left:13%!important;}
+	.span-wrap-one{margin-top:5%!important;}
+	.more-results{margin-top:10%!important;}
+	.hr-line{width:348px!important;}	
+	.cont-wrapper-two{margin-left:0%!important;}
+	.cont-wrapper-three{margin-left:0%!important;}
+	.ship-img,.lady-img,.man-img{margin-left:32%!important;}
+} 
